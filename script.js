@@ -22,39 +22,116 @@
 // }
 
 //2
-function showMessage() {
-    const day = document.getElementById('day').value;
-    const messageDiv = document.getElementById('message');
-    let message;
+// function checkDay() {
+//     const day = document.getElementById('dayInput').value.trim().toLowerCase();
+//     const resultElement = document.getElementById('result');
+
+//     switch (day) {
+//         case 'понеділок':
+//         case 'вівторок':
+//         case 'середа':
+//         case 'четвер':
+//         case 'п’ятниця':
+//             resultElement.textContent = `${day.charAt(0).toUpperCase() + day.slice(1)} — це робочий день.`;
+//             break;
+//         case 'субота':
+//         case 'неділя':
+//             resultElement.textContent = `${day.charAt(0).toUpperCase() + day.slice(1)} — це вихідний день.`;
+//             break;
+//         default:
+//             resultElement.textContent = 'Введено некоректний день тижня.';
+//     }
+// }
+
+//3
+
+// function determineSeason() {
+//     const month = parseInt(document.getElementById('monthInput').value);
+//     let season;
+
+//     switch (month) {
+//         case 12:
+//         case 1:
+//         case 2:
+//             season = 'Зима';
+//             break;
+//         case 3:
+//         case 4:
+//         case 5:
+//             season = 'Весна';
+//             break;
+//         case 6:
+//         case 7:
+//         case 8:
+//             season = 'Літо';
+//             break;
+//         case 9:
+//         case 10:
+//         case 11:
+//             season = 'Осінь';
+//             break;
+//         default:
+//             season = 'Некоректний номер місяця. Будь ласка, введіть число від 1 до 12.';
+//             break;
+//     }
+
+//     document.getElementById('result').textContent = season;
+// }
 
 
-switch(day) {
-    case 'monday':
-        message = "Понеділок!";
-        break;
-    case 'tuesday':
-        message = "Вівторок!";
-        break;
-     case 'wednesday':
-        message = "Середа!";
-        break;
-     case 'thursday':
-        message = "Четвер!";
-        break;
-       case 'friday':
-        message = "П'ятниця!";
-        break;
-    case 'saturday':
-        message = "Субота, сьогодні вихідний!";
-        break;
-      case 'sunday':
-        message = "Неділя, сьогодні вихідний!";
-        break;
-     default:
-        message = "";
+//4
+// function determineSeason() {
+//     const month = parseInt(document.getElementById('monthInput').value);
+//     let season;
 
-    }
+//     switch (month) {
+//         case 12:
+//             season = '31';
+//             break;
+//         case 1:
+//             season = '31';
+//             break;
+//         case 2:
+//             season = '31';
+//             break;
+//         case 3:
+//             season = '28';
+//             break;
+//         case 4:
+//             season = '30';
+//             break;
+//         case 5:
+//             season = '31';
+//             break;
+//         case 6:
+//             season = '30';
+//             break;
+//         case 7:
+//             season = '31';
+//             break;
+//         case 8:
+//             season = '31';
+//             break;
+//         case 9:
+//             season = '31';
+//             break;
+//         case 10:
+//             season = '30';
+//             break;
+//         case 11:
+//             season = '';
+//             break;
+//         default:
+//             season = 'Некоректний номер місяця. Будь ласка, введіть число від 1 до 12.';
+//             break;
+//     }
 
-        messageDiv.textContent = message;
+//     document.getElementById('result').textContent = season;
+// }
 
+//6
+let first;
+let second;
+const result = {
+    
 }
