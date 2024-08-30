@@ -129,9 +129,31 @@
 //     document.getElementById('result').textContent = season;
 // }
 
-//6
-let first;
-let second;
-const result = {
-    
-}
+
+
+
+//5
+// document.getElementById('checkButton').addEventListener('click', function() {
+//     const color = document.getElementById('colorInput').value.toLowerCase();
+//     const resultatement = document.getElementById('result');
+
+//     switch (color) {
+//         case 'червоний':
+//             resultatement.textContent = 'Стоп';
+//             break;
+//             case 'жовтий':
+//             resultatement.textContent = 'Чекати';
+//             break;
+//         case 'зелений':
+//             resultatement.textContent = 'Йти';
+//             break;
+//         default:
+//             resultatement.textContent = '???';
+//             break;
+//     }
+// });
+
+
+
+
+
